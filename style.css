@@ -1,3 +1,15 @@
+#cars-body{
+    background-image: url("image/car-bg.jpg");
+    background-size: cover;
+}
+#trucks-body{
+    background-image: url("images/");
+    background-size: cover;
+}
+#motorcycle-body{
+    background-image: url("images/bg_bggenerator_com.png");
+    background-size: cover;
+}
 .main-header{
     position: fixed;
     top: 0;
@@ -30,10 +42,73 @@
     padding: 10px;
     font-weight: bold;
 }
-.all-cars{
+.section-slider{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.image-slider{
+    position: relative;
+    width: 640px;
+    height: 426px;
+    z-index: 10;
+}
+.slide{
+    width: 100%;
+    position: absolute;
+    clip-path: circle(0% at 0 50%);
+    margin: 50px;
+}
+.slide img{
+    width: 100%;
+    border-radius: 15px;
+}
+.slide-text{
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    background-color: rgba(220, 220, 220, 0.609);
+    padding: 15px;
+    border-radius: 10px;
+}
+.slide-text h2 {
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+.slide-text p{
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+.navigation{
+    position: absolute;
+    display: flex;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.slider-btn{
+    background-color: rgb(151, 151, 151);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.slide.active{
+    clip-path: circle(150% at 0 50%);
+    transition: 2s;
+    transition-property: clip-path;
+}
+.slider-btn.active{
+    background-color: rgb(38, 70, 83);
+}
+.all-vehicle{
     margin-top: 5%;
 }
-.car-detail{
+.vehicle-detail{
     margin: 50px 30px 100px;
     padding: 20px;
     border-radius: 5px;
@@ -43,25 +118,41 @@
     justify-content: flex-start;
     align-items: flex-start;
 }
-.car-img{
+.vehicle-img{
     margin: 5px;
 }
-.car-img img{
+.vehicle-img img{
     width: 350px;
     height: auto;
     border-radius: 5px;
 }
-.car-description{
+.vehicle-description{
     margin: 5px;
 }
-.car-description h3{
+.vehicle-description h3{
     margin: 0 5px 5px;
     padding: 0;
     font-size: 23px;
 }
-.car-description p{
+.vehicle-description p{
     margin: 20px 5px;
     padding: 0;
     line-height: 1.8;
     text-indent: 40px;
+    font-size: larger;
+}
+.vehicle-link p{
+    text-indent: 0;
+}
+.vehicle-link a{
+    color: cadetblue;
+    text-decoration: underline;
+    margin: 0;
+    padding: 0;
+}
+.vehicle-link a:visited{
+    color: red;
+}
+.vehicle-link a:hover{
+    color: purple;
 }
