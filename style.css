@@ -1,14 +1,17 @@
 #cars-body{
-    background-image: url("image/car-bg.jpg");
+    background-image: url("");
     background-size: cover;
+    background-color: lightskyblue;
 }
 #trucks-body{
-    background-image: url("images/");
+    background-image: url("");
     background-size: cover;
+    background-color: red;
 }
 #motorcycle-body{
-    background-image: url("images/bg_bggenerator_com.png");
+    background-image: url("");
     background-size: cover;
+    background-color: lime;
 }
 .main-header{
     position: fixed;
