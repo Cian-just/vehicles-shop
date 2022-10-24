@@ -1,17 +1,3 @@
-#cars-body{
-    background-image: url("image/racing streak stripe design.jpg");
-    background-size: contain;
-}
-#trucks-body{
-    background-image: url("");
-    background-size: cover;
-    background-color: red;
-}
-#motorcycle-body{
-    background-image: url("");
-    background-size: cover;
-    background-color: lime;
-}
 .main-header{
     position: fixed;
     top: 0;
@@ -43,6 +29,20 @@
     text-decoration: none;
     padding: 10px;
     font-weight: bold;
+}
+#cars-body{
+    background-image: url("image/racing streak stripe design.jpg");
+    background-size: contain;
+}
+#trucks-body{
+    background-image: url("");
+    background-size: cover;
+    background-color: red;
+}
+#motorcycle-body{
+    background-image: url("");
+    background-size: cover;
+    background-color: lime;
 }
 .section-slider{
     display: flex;
