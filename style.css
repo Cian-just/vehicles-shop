@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 60px;
+    height: 50px;
     background-color: rgb(38, 70, 83);
 }
 .header-info{
@@ -31,18 +31,18 @@
     font-weight: bold;
 }
 #cars-body{
-    background-image: url("image/racing streak stripe design.jpg");
-    background-size: cover;
+    background-image: url("image/Car Decal Sticker Graphic Vinyl Stock Vector (Royalty Free) 1098544559 Shutterstock.jpg");
+    background-size: contain;
     background-repeat: no-repeat;
 }
 #trucks-body{
     background-image: url("image/Clouds Clouds Moon Road Background Material.jpg");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 #home-body{
     background-image: url("image/Cool wallpaper.jpg");
-    background-size: cover
+    background-size: cover;
 }
 .section-slider{
     display: flex;
@@ -291,15 +291,19 @@
 }
 .site-for{
     text-align: center;
-    color:  #f15959;
+    color:   white;
     font-family: 'Noto Serif';
     font-size: x-large;
+    backdrop-filter: blur(15px);
+    padding-bottom: 20px;
 }
 .companies{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     justify-content: center;
+    backdrop-filter: blur(15px);
 }
 .company-logo{
     padding: 20px;
@@ -317,9 +321,10 @@
     font-size: x-large;
     font-family: 'Oswalt';
     text-align: center;
+    backdrop-filter: blur(15px);
 }
 .us a:visited{
-    color: black;
+    color: #2c5af8;
 }
 .us a:hover{
     color:  #35f82c;
