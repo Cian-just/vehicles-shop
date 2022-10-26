@@ -32,12 +32,12 @@
 }
 #cars-body{
     background-image: url("image/Car Decal Sticker Graphic Vinyl Stock Vector (Royalty Free) 1098544559 Shutterstock.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 #trucks-body{
     background-image: url("image/Clouds Clouds Moon Road Background Material.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 #home-body{
@@ -242,6 +242,8 @@
 	margin: 0;
 	font-size: 15px;
 	height: 100%;
+    top: 15px;
+    left: 15px;
 }
 
 /* style for input message with text area */
@@ -256,6 +258,8 @@
 
 .textarea {
 	border-style: none;
+    top: 0;
+    left: 0;
 	border-bottom: 1px solid grey;
 	outline: none;
 	margin-top: 10px;
